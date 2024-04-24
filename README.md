@@ -3,4 +3,4 @@
 
 # About 
 
-#### This is template of mini website using react , if you are a beginner then definitely try it
+#### This is template of mini website using react , if you are a beginner then definitely try it and source code of this project is available on top in src folder and other details available in public folder.
