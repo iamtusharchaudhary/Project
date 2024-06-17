@@ -1,0 +1,22 @@
+.contact-form{
+    min-height: 20vh;
+    width: 80vw;
+    /* background-color: red; */
+}
+.form-box{
+    margin-bottom: 2vh;
+    /* background-color: green; */
+    /* padding: 2px; */
+    /* height: 200px; */
+    width: 70vw;
+}
+.form-box input, textarea{
+    /* padding: 100px; */
+    width: 70vw;
+    padding: 2px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.form-box textarea{
+    min-height: 40vh;
+}

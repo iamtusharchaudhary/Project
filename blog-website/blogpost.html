@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="webfonts/fa-brands-400.woff2">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="blogpost.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <div class="navbar-image"><img src="images/572.png" alt="logo" /></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <form id="form" name="query" action="./search.html" method="get">
+                <input class="srch-btn" type="search" placeholder="Search Article" />
+                <button class="btn-1">Search</button>
+                <!-- <i class="fa-solid fa-magnifying-glass search-btn"></i> -->
+            </form>
+        </div>
+    </div>
+    <div class="hr-line">
+        <hr />
+    </div>
+    <!-- <div class="hr-line">
+        <hr />
+    </div> -->
+    <br>
+    <div class="articles">
+        <img src="images/vecteezy_overhead-shot-of-man-working-on-laptop-flat-lay-top-view_5022141.svg" width="100%"
+            height="500vh" alt="">
+        <div class="blog-posts-content">
+            <h3>The heaven for bloggers</h3>
+            <div class="blogpostmeta">
+                <div class="author-detail">
+                    <div class="author-detail-1">
+                        Ratan Tata (CEO Tata Service Consultancy)
+                    </div>
+                    <div class="author-detail-2">
+                        16 May , 5 min read
+                    </div>
+                </div>
+                <div class="social-links">
+                    <svg width="28" height="28" class="twitter" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M28 3.222C26.97 3.685 25.862 3.996 24.7 4.137C25.9034 3.4078 26.801 2.26638 27.226 0.925C26.0996 1.60097 24.8652 2.07794 23.577 2.335C23.0427 1.75645 22.3944 1.29475 21.673 0.978948C20.9515 0.663145 20.1725 0.500076 19.385 0.5C16.212 0.5 13.641 3.1 13.641 6.306C13.641 6.761 13.693 7.206 13.789 7.629C9.016 7.387 4.784 5.075 1.95 1.56C1.43967 2.44841 1.17205 3.45545 1.174 4.48C1.17133 5.43314 1.40284 6.37235 1.84817 7.21507C2.2935 8.05778 2.93903 8.7782 3.728 9.313C2.81494 9.28354 1.92242 9.03451 1.126 8.587V8.66C1.126 11.474 3.106 13.82 5.734 14.353C4.8886 14.5858 4.00082 14.62 3.14 14.453C3.871 16.76 5.993 18.439 8.506 18.486C7.31857 19.431 5.95501 20.1305 4.49471 20.5435C3.0344 20.9566 1.50652 21.075 0 20.892C2.62075 22.596 5.68001 23.502 8.806 23.5C19.372 23.5 25.148 14.652 25.148 6.98C25.1481 6.72925 25.1428 6.47852 25.132 6.228C26.2588 5.40415 27.23 4.38627 28 3.222V3.222Z">
+                        </path>
+                    </svg>
+                    <svg width="28" height="28" class="facebook" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3307_57195)">
+                            <path
+                                d="M24.889 1.60787e-07H3.11C2.7015 1.39669e-07 2.29701 0.0804758 1.91962 0.23683C1.54224 0.393185 1.19935 0.622355 0.910544 0.911252C0.621741 1.20015 0.392681 1.54311 0.236448 1.92055C0.0802144 2.29799 -0.000131188 2.70251 1.60787e-07 3.111V24.89C1.39669e-07 25.2985 0.0804758 25.703 0.23683 26.0804C0.393185 26.4578 0.622355 26.8007 0.911252 27.0895C1.20015 27.3783 1.54311 27.6073 1.92055 27.7636C2.29799 27.9198 2.70251 28.0001 3.111 28H14.966V17.172H11.321V12.932H14.966V9.815C14.966 6.2 17.176 4.229 20.403 4.229C21.4898 4.22651 22.5759 4.28092 23.657 4.392V8.172H21.436C19.678 8.172 19.336 9.003 19.336 10.229V12.928H23.536L22.99 17.167H19.31V28H24.889C25.2976 28.0001 25.7022 27.9198 26.0797 27.7635C26.4572 27.6072 26.8002 27.378 27.0891 27.0891C27.378 26.8002 27.6072 26.4572 27.7635 26.0797C27.9198 25.7022 28.0001 25.2976 28 24.889V3.11C28 2.7015 27.9195 2.29701 27.7632 1.91962C27.6068 1.54224 27.3776 1.19935 27.0887 0.910544C26.7999 0.621741 26.4569 0.392681 26.0795 0.236448C25.702 0.0802144 25.2975 -0.000131188 24.889 1.60787e-07Z">
+                            </path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3307_57195">
+                                <rect width="28" height="28" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <svg width="28" height="28" class="linkedin h-p-0-lg h-mb-3-lg" viewBox="0 0 28 28"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3302_57044)">
+                            <path
+                                d="M24.889 1.60787e-07H3.11C2.7015 1.39669e-07 2.29701 0.0804758 1.91962 0.23683C1.54224 0.393185 1.19935 0.622355 0.910544 0.911252C0.621741 1.20015 0.392681 1.54311 0.236448 1.92055C0.0802144 2.29799 -0.000131188 2.70251 1.60787e-07 3.111V24.89C1.39669e-07 25.2985 0.0804758 25.703 0.23683 26.0804C0.393185 26.4578 0.622355 26.8007 0.911252 27.0895C1.20015 27.3783 1.54311 27.6073 1.92055 27.7636C2.29799 27.9198 2.70251 28.0001 3.111 28H24.89C25.2985 28 25.703 27.9195 26.0804 27.7632C26.4578 27.6068 26.8007 27.3776 27.0895 27.0887C27.3783 26.7999 27.6073 26.4569 27.7636 26.0795C27.9198 25.702 28.0001 25.2975 28 24.889V3.11C28 2.7015 27.9195 2.29701 27.7632 1.91962C27.6068 1.54224 27.3776 1.19935 27.0887 0.910544C26.7999 0.621741 26.4569 0.392681 26.0795 0.236448C25.702 0.0802144 25.2975 -0.000131188 24.889 1.60787e-07ZM9.333 21.778H5.41V10.888H9.334V21.778H9.333ZM7.302 8.893C6.102 8.893 5.302 8.093 5.302 7.026C5.302 5.959 6.1 5.16 7.433 5.16C8.633 5.16 9.433 5.96 9.433 7.026C9.433 8.094 8.633 8.893 7.301 8.893H7.302ZM23.333 21.778H19.535V15.826C19.535 14.18 18.522 13.801 18.142 13.801C17.762 13.801 16.497 14.054 16.497 15.826V21.778H12.572V10.888H16.497V12.408C17.002 11.522 18.015 10.888 19.914 10.888C21.814 10.888 23.334 12.408 23.334 15.826V21.778H23.333Z">
+                            </path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3302_57044">
+                                <rect width="28" height="28" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <svg width="28" height="28" class="mail h-p-0-lg h-mb-3-lg" viewBox="0 0 28 28"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.8 3.00001C2.12163 2.99621 1.4654 3.24121 0.955496 3.68864C0.445591 4.13608 0.117389 4.7549 0.033 5.42801L14 14L27.967 5.42801C27.8826 4.7549 27.5544 4.13608 27.0445 3.68864C26.5346 3.24121 25.8784 2.99621 25.2 3.00001H2.8ZM0 8.15901V22.25C0 23.77 1.253 25 2.8 25H25.2C26.747 25 28 23.77 28 22.25V8.15901L14.741 16.296C14.5178 16.4323 14.2615 16.5043 14 16.5043C13.7385 16.5043 13.4822 16.4323 13.259 16.296L0 8.16001V8.15901Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <p>
+                Ratan Naval Tata was chairman of the Tata Group until his retirement in 2012, after which he served as
+                temporary chairman in 2017. The industrialist has received two of the highest accolades given by the
+                Indian government, the Padma Bhushan and the Padma Vibhushan.
+
+                Apart from Corus Group, one of Ratan Tata’s most notable accomplishments was taking the Tata brand
+                global through acquisitions such as Tetley Tea, Daewoo Motors’ truck manufacturing subsidiary, and
+                Jaguar Land Rover.
+
+                TCS, an IT services business, went public in 2004 under Ratan Tata’s leadership. TCS is the first Indian
+                software company to cross $1 billion in revenue.
+
+                Tata Motors, the automaker, was listed on the New York Stock Exchange under Ratan Tata’s reign. Tata’s
+                contribution to India’s car sector has been a feather in his cap, with the group building a true-blue
+                Indian brand, the Indica, followed by the Nano, which was his own creation. During his tenure, the Tata
+                Group’s revenues and net earnings more than doubled.
+            </p>
+            <p>
+             Sit amet consectetur adipisicing elit. A incidunt veritatis, alias vitae sequi
+                similique saepe, fugit porro distinctio natus culpa sunt rem itaque quo molestias beatae laboriosam
+                maxime enim minima. Adipisci dolor quibusdam rem sequi illum cupiditate veritatis saepe dolore nam
+                dolores earum repudiandae autem illo atque, qui sint velit unde corporis reprehenderit harum optio.
+                Earum laborum veniam magni, aliquid molestias modi accusantium omnis similique corrupti esse quia id
+                blanditiis ad illo debitis incidunt provident autem sit reprehenderit consequuntur animi! Placeat vel
+                atque sequi sapiente quidem facere molestiae expedita facilis maxime? Illo eius sequi eligendi possimus
+                aspernatur rem impedit?
+            </p>
+        </div>
+        <h2>People who read this also read</h2>
+        <div class="wrapper">
+            <div class="article">
+                <div class="article-img">
+                    <img src="images/photo-1500989145603-8e7ef71d639e.avif" alt="banner" />
+                </div>
+                <div class="article-content">
+                    <a href="blogpost.html">
+                        <h3>Learning Web Development after joining this channel</h3>
+                    </a>
+                    <div id="author">Author Name</div> <span id="date-blogpost">7 January 2023</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-img">
+                    <img src="images/60736.png" alt="banner" />
+                </div>
+                <div class="article-content">
+                    <a href="./blogpost.html">
+                        <h3>Learning Data Scientist after joining this channel</h3>
+                    </a>
+                    <div id="author">Author Name</div> <span id="date-blogpost">7 January</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-img">
+                    <img src="images/572.png" alt="banner" />
+                </div>
+                <div class="article-content">
+                    <a href="blogpost.html">
+                        <h3>Learning UI/UX Developer after joining this channel</h3>
+                    </a>
+                    <div id="author">Author Name</div> <span id="date-blogpost">7 January</span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="footer">
+            <h5>copyright &copy; blog.com</h5>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
