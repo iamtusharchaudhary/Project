@@ -4,7 +4,7 @@ function Demo() {
     return (
         <>
             <div className="navbar">
-                <h1>&nbsp;&nbsp;tushar tech</h1>
+                <h1>&nbsp;&nbsp;Tushar tech</h1>
                 <ul>
                     <li><a href="./home">Home</a></li>
                     <li><a href="service">Service</a></li>
